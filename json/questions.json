@@ -1,0 +1,5 @@
+data = [
+    {question: "¿Como se abrevia universidad veracruzana?", answers: {a: "UV", b: "UNI", c: "UNV", d: "VER"}, correctAnswer: "a"},
+    {question: "¿Cuantos meses tiene un año?", answers: {a: "5", b: "12", c: "7", d: "4"}, correctAnswer: "b"},
+    {question: "¿Como se abrevia realidad virtual?", answers: {a: "VT", b: "RT", c: "RV", d: "VIR"}, correctAnswer: "c"}
+];
