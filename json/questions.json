@@ -1,63 +1,63 @@
 data = [
     {question: "¿Cual es una diferencia visible entre la realidad virtual y aumentada?", answers: {A: "La forma de representar el contenido", B: "La popularidad entre ambas tecnologias", C: "El precio", D: "Los colores"
-        }, correctAnswer: "a"
+        }, correctAnswer: "A"
     },
     {question: "¿Que tecnologia crea una segunda realidad diferente a la nuestra para mostrar su contenido?", answers: {A: "La realidad aumentada", B: "La realidad virtual", C: "El metaverso",
-        }, correctAnswer: "b"
+        }, correctAnswer: "B"
     },
     {question: "¿Que es la realidad mixta?", answers: {A: "El la tecnologia que permite interactuar con elementos digitales a traves de nuestra realidad", B: "Es el uso de una segunda realidad para interactuar en ella", C: "Es la combinacion de la realidad virtual y la realidad aumentada"
-        }, correctAnswer: "c"
+        }, correctAnswer: "C"
     },
     {question: "¿Cual es el prinpical problema que genera a los usuarios el uso de la realidad virtual?", answers: {A: "El color de los lentes de realidad virtual", B: "El poco contenido", C: "Mareos y caidas", D: "Contenido de baja calidad"
-        }, correctAnswer: "c"
+        }, correctAnswer: "C"
     },
     {question: "¿Es un ejemplo de contenido para realidad virtual?", answers: {A: "Lentes de RV", B: "Computadoras adaptadas para RV", C: "Perifericos señaladores", D: "Half Life Alyx VR"
-        }, correctAnswer: "d"
+        }, correctAnswer: "D"
     },
     {question: "¿Es un ejemplo de contenido para realidad aumentada?", answers: {A: "Smartphones", B: "Oculus rift AR", C: "GTA AR", D: "Pokemon Go"
-        }, correctAnswer: "d"
+        }, correctAnswer: "D"
     },
     {question: "¿Que significa RV?", answers: {A: "Reality Virtual", B: "Realidad virtual", C: "Realidad virtualizada", D: "Realidad vectorizada"
-        }, correctAnswer: "b"
+        }, correctAnswer: "C"
     },
     {question: "¿Que significa RA?", answers: {A: "Reality Augmented", B: "Realidad alterna", C: "Realidad virtualizada", D: "Realidad aumentada"
-        }, correctAnswer: "d"
+        }, correctAnswer: "D"
     },
     {question: "¿Cual es la diferencia entre RA y AR ?", answers: {A: "Son tecnologias diferentes", B: "Son tecnologias similares con nombres diferentes ", C: "Son tecnologias diferentes con nombres parecidos", D: "Son la misma tecnologia con sus nombre en ingles y español"
-        }, correctAnswer: "d"
+        }, correctAnswer: "D"
     },
     {question: "¿Como se abrevia realidad virtual en ingles?", answers: {A: "RV", B: "VR", C: "Realidad virtual", D: "Virtual reality"
-        }, correctAnswer: "b"
+        }, correctAnswer: "B"
     },
     {question: "¿Que tecnologia necesito si quiero dar diseño a una pagina web (Aplicar color al texto, dar formato a imagenes, centrar texto)?", answers: {A: "HTML", B: "Photoshop", C: "Css", D: "JS"
-        }, correctAnswer: "c"
+        }, correctAnswer: "C"
     },
     {question: "¿Cual es el lenguaje de marcado de hipertexto?", answers: {A: "HTML", B: "Java", C: "HiperText", D: "HTLM"
-        }, correctAnswer: "a"
+        }, correctAnswer: "A"
     },
     {question: "¿Que lenguaje sirve para estructurar una pagina web?", answers: {A: "HTML", B: "JSON", C: "Css", D: "JS"
-        }, correctAnswer: "a"
+        }, correctAnswer: "A"
     },
     {question: "¿Para que sirve < br > durante la creacion de una pagina web?", answers: {A: "Crea una linea debajo del texto", B: "Agrega numeracion al texto", C: "Crea un salto de linea al texto", D: "Agrega sangria al texto"
-        }, correctAnswer: "c"
+        }, correctAnswer: "C"
     },
     {question: "¿Para que sirve la etiqueta alt en HTML?", answers: {A: "En esta etiqueta podemos agregar una ", B: "En esta etiqueta podemos ageragar una instruccion alternativa", C: "En esta etiqueta podemos agregar una imagen alternativa", D: "En esta etiqueta podemos agregar una descripcion a una imagen"
-        }, correctAnswer: "d"
+        }, correctAnswer: "D"
     },
     {question: "¿Si quiero recorrer un arreglo llamado numeros con un tamaño almacenado en la variable cant y siendo cant igual a 4 usando un ciclo for cual seria la declaracion correcta?", answers: {A: "for(int i = 0; i < numeros.length; i++)", B: "for(int i = 0; i < cant; i++)", C: "for(int i = 0; i < 4; i++)", D: "Cualquiera de las anteriores"
-        }, correctAnswer: "d"
+        }, correctAnswer: "D"
     },
     {question: "¿Cual es la diferencia entre un ciclo while y un do while?", answers: {A: "El ciclo while tiene un funcionamiento similar al ciclo for, siendo mas util para recorrer arreglos que el ciclo do while.", B: "El ciclo do while realiza primero las instrucciones y despues valida la condicion, el ciclo while primero validad y despues realiza las instrucciones", C: "El ciclo while realiza examente el mismo proceso que el ciclo do while pero es una version mejorada del cuiclo do while al usar menos memoria", D: "El ciclo while realiza primero las instrucciones y despues valida la condicion, el ciclo do while primero validad y despues realiza las instruccione"
-        }, correctAnswer: "b"
+        }, correctAnswer: "B"
     },
     {question: "¿A que se le conoce como el for mejorado?", answers: {A: "Al ciclo for each", B: "Al ciclo for+", C: "Al uso de menos sentencias dentro de un ciclo for", D: "Cualquiera de las anteriores"
-        }, correctAnswer: "a"
+        }, correctAnswer: "A"
     },
     {question: "¿Cual es la declaracion correcta del metodo main?", answers: {A: "public static void main(string[] args)", B: "public static void main(Strings[] args)", C: "public static void main(String args[])", D: "public static void main(String[] args)"
-        }, correctAnswer: "d"
+        }, correctAnswer: "D"
     },
     {question: "¿Si quiero llenar un arreglo llamado conteo que tiene un tamaño de 100 con los numeros del 1 al 100 cual es la opcion correcta?", answers: {A: "for(int i = 1; i <= conteo.length; i++){ conteo[i - 1] = i; }", B: "for(int i = 1; i < conteo.length; i++){ conteo[i - 1] = i; }", C: "for(int i = 0; i <= conteo.length; i++){ conteo[i - 1] = i; }", D: "for(int i = 0; i < conteo.length; i++){ conteo[i - 1] = i; }"
-        }, correctAnswer: "a"
+        }, correctAnswer: "A"
     }
     
 ];
