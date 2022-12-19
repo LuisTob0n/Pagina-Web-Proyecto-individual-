@@ -4,22 +4,21 @@ body {
     font-family: Arial;
     font-size: 20px;
     text-align: center;
-    background-color: #252525;/*Cambio de color de la pagina*/
     /*Color de fondo del body*/
-    background: radial-gradient(circle, rgba(7, 4, 45, 1) 0%, rgba(4, 4, 51, 1) 56%, rgba(1, 8, 34, 1) 100%);
+    background: rgb(2, 0, 36);
     /*Color de fondo*/
     overflow-x: hidden;
 
 }
 
 #header {
-    border-bottom: 1px solid #666;/*Borde del header WIP*/
+    border-bottom: 0px solid #666;/*Borde del header WIP*/
     color: white;
     display: block;
-    padding: 10px 0;
+    padding: 10px;
     text-align: center;
     /*Color de fondo del header*/
-    background: linear-gradient(90deg, rgba(3, 0, 56, 1) 0%, rgba(9, 9, 121, 1) 56%, rgba(0, 55, 106, 1) 100%);
+    background: rgb(2, 0, 20);
     /*Color de fondo*/
 }
 
@@ -29,8 +28,8 @@ body {
     *//*Cambiar color del titulo desde el #header para no afectar el color del menu*/
     font-weight: 300;
     margin: 0px;
-    padding: 10px;
     font-size: 25px;
+    padding: 10px;
 }
 
 .question {
@@ -39,9 +38,11 @@ body {
     /*Color del texto de las preguntas*/
     color: white;
     /*Color del texto de las preguntas*/
+    margin-top: 5%;
 }
 
 .answers {
+    margin-top: 3%;
     margin-bottom: 20px;
     text-align: left;
     display: inline-block;
@@ -52,7 +53,7 @@ body {
 
 .answers label {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 3%;
 }
 
 button p {
@@ -66,19 +67,26 @@ button {
     height: 50px;
     padding: 20px;
     cursor: pointer;
-    border-radius: 3px;
     color: #fff;
-    background-image: -webkit-gradient(linear, left top, left bottom,
-            from(#aaa), to(#888));
-    margin-top: 15px;
+    background: linear-gradient(90deg, #BF4222, blue);
+    margin-top: 5%;
     /*Agregado*/
-    border-radius: 15px;
+    border-radius: 10px;
     /*Agregado*/
+    border: 0px;
 }
 
+#next{
+    margin-top: 12%;
+    border: 0px;
+}
+#submit{
+    margin-top: 12%;
+    border: 0px;
+}
 button:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom,
-            from(#bbb), to(#999));
+    background: linear-gradient(90deg, blue, #BF4222);
+    border: 0px;
 }
 
 .quiz-wrapper {
@@ -93,9 +101,9 @@ button:hover {
 }
 
 #results {
-    margin-top: 15px;
-    padding: 20px;
     /*Color del texto del resultado de respuestas acertadas*/
+    margin-top: 12%;
+    padding: 20px;
     color: white;
 }
 
@@ -136,7 +144,7 @@ h2 {
     color: #333;
     font-weight: 100;
     font-size: 40px;
-    margin: 40px 0px 20px;
+    margin-top: -9%;
     color: white;/*Color del texto del Timer*/
 }
 
@@ -170,6 +178,7 @@ h2 {
 .smalltext {
     padding-top: 3px;
     font-size: 16px;
+    color: #151515;
 }
 
 /*Segundo archivo htmnl*/
@@ -182,6 +191,7 @@ form {
 .formLabel {
     font-size: 16px;
     width: 10%;
+
 }
 
 .formArea, .formInput, .formSelect {
@@ -190,15 +200,44 @@ form {
 
 .formArea {
     width: 80%;
+    background-color: #252525;
+    border: 0px;
+}
+
+.formArea:hover{
+    background-color: #303030;
 }
 
 .formInput {
     width: 50%;
+    border-radius: 10px;
+    margin-bottom: .5%;
+    background-color: #252525;
+    border: 0px;
+}
+
+.formInput:hover{
+    background-color: #303030;
 }
 
 .formSelect {
     width: 25%;
     text-align: center;
+}
+#d{
+    margin-bottom: 2.5%;
+}
+
+select{
+    background-color: #303030;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 1.5%;
+    color: #ccc;
+}
+
+option{
+    color: #ccc;
 }
 
 /*Tercer archivo html*/
@@ -224,23 +263,6 @@ form {
     margin: 30px 0 20px 0;
 }
 
-#footer2 {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    /*Color del footer 2*/
-    color: white;
-    background-color: #151515;
-}
-
-#footer2 h5 {
-    text-align: center;
-    padding-top: 10px;
-    font-size: 15px;
-}
-
-
 
 #menu {
     position: absolute;
@@ -251,6 +273,7 @@ form {
 #menu:hover {
     background-color: rgba(255, 255, 255, 0.5);
     font-weight: bold;
+    border-radius: 8px;
 }
 
 #menubox {
@@ -291,6 +314,41 @@ form {
     font-weight: bold;
 }
 
+#bank{
+    color: white;
+}
+
+#showQstn{
+    color:#ccc;
+    font-weight: 150;
+    margin-top: 30px;
+}
+
+#saveQuestions{
+    margin-top: -50px;
+}
+
+#removeQuestions{
+    margin-top: 59px;
+}
+
+textarea{
+    border-radius: 15px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.formLabel{
+    color: white;
+}
+
+#submitQuestion{
+    margin-top: 3%;
+}
+
+#saveQuestionBank{
+    margin-top: .5%;
+}
 /*Agregado*/
 
 /*Agregado*/
