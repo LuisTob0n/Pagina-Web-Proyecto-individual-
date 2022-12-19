@@ -18,7 +18,7 @@ data = [
         }, correctAnswer: "D"
     },
     {question: "¿Que significa RV?", answers: {A: "Reality Virtual", B: "Realidad virtual", C: "Realidad virtualizada", D: "Realidad vectorizada"
-        }, correctAnswer: "C"
+        }, correctAnswer: "B"
     },
     {question: "¿Que significa RA?", answers: {A: "Reality Augmented", B: "Realidad alterna", C: "Realidad virtualizada", D: "Realidad aumentada"
         }, correctAnswer: "D"
