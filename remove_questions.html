@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Editor de preguntas</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' type='text/css' media='screen' href='css/app.css'>
@@ -14,19 +11,18 @@
             <h1>Banco de preguntas<br>Eliminar preguntas</h1>
             <span id="menu"></span>
             <div id="menubox" style="display: none;">
-                <br><a href="quiz_app.html" alt="back to quiz" title="back to quiz"> Backto Quiz </a><br><br>
+                <br><a href="index.html" alt="back to quiz" title="back to quiz"> Backto Quiz </a><br><br>
                 <a href="add_questions.html" alt="add questions" title="addquestions"> Add Questions </a>
                 <span id="menudismiss"> X </span>
             </div>
         </div>
         <div class="wrapper">
-            <form id="removeQuestion" onsubmit="submitForm(event)">
+            <form id="removeQuestion" onsubmit="submitRemoveForm(event)">
                 <label class="formLabel">Banco de preguntas:</label><br>
-                <!-- Add all questions here with check boxes -->
                 <div id="showQstn"></div>
                 <br><br>
                 <button id="removeQuestions">
-                    <p>Eliminar preguntas seleccionadas</p>
+                    <p>Eliminar</p>
                 </button><br><br><br>
                 <button id="saveQuestions">
                     <p>Guardar banco de preguntas</p>

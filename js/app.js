@@ -1,24 +1,24 @@
-function buildQuiz() {
+function buildQuiz(){
+
     const output = [];
+
     myQuestions.forEach(
         (currentQuestion, questionNumber) => {
             const answers = [];
             for (letter in currentQuestion.answers) {
                 answers.push(
-`<label>
-<input type="radio" name="question${questionNumber}"
-value="${letter}" class="rad_butn">
-${letter} :
-${currentQuestion.answers[letter]}
-</label>`
+                    `<label>
+            <input type="radio" name="question${questionNumber}" value="${letter}" class="rad_butn">
+            ${letter} :
+            ${currentQuestion.answers[letter]}
+          </label>`
                 );
             }
             output.push(
                 `<div class="slide">
-<div class="question"> ${(questionNumber + 1)}.
-${currentQuestion.question} </div>
-<div class="answers"> ${answers.join("")} </div>
-</div>`
+          <div class="question"> ${(questionNumber + 1)}. ${currentQuestion.question} </div>
+          <div class="answers"> ${answers.join("")} </div>
+        </div>`
             );
         }
     );
@@ -78,32 +78,21 @@ const quizBox = document.getElementById('quiz');
 const resultsBox = document.getElementById('results');
 const submitButton = document.getElementById('submit');
 
-/*
-const myQuestions= [];
-for (i = 0; i < data.length; i++) {
-    myQuestions.push(data[i]);
-}
-
-document.getElementById('quizLength').innerHTML = data.length;
-*/
-
-
 const myQuestions = [];
 const newObject = localStorage.getItem("questionBank");
 let dataStored = JSON.parse(newObject);
-if(dataStored){
-for(i=0; i < dataStored.length; i++){
-myQuestions.push(dataStored[i]);
-}
-document.getElementById('quizLength').innerHTML =
-dataStored.length;
-} else {
-for(i=0; i < data.length; i++){
-myQuestions.push(data[i]);
-}
-document.getElementById('quizLength').innerHTML = data.length;
-}
 
+if (dataStored) {
+    for (i = 0; i < dataStored.length; i++) {
+        myQuestions.push(dataStored[i]);
+    }
+    document.getElementById('quizLength').innerHTML = dataStored.length;
+} else {
+    for (i = 0; i < data.length; i++) {
+        myQuestions.push(data[i]);
+    }
+    document.getElementById('quizLength').innerHTML = data.length;
+}
 
 
 

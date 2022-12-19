@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Quiz Bank Editor</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' type='text/css' media='screen' href='css/app.css'>
@@ -14,18 +13,16 @@
             <h1>Quiz Bank<br>Add A Question: <span id="qCount"></span></h1>
             <span id="menu"></span>
             <div id="menubox" style="display: none;">
-                <br><a href="quiz_app.html" alt="back to quiz" title="back to quiz"> Backto Quiz </a><br><br>
+                <br><a href="quiz_app.html" alt="back to quiz" title="back to quiz"> Back to Quiz </a><br><br>
                 <a href="remove_questions.html" alt="remove questions" title="removequestions"> Drop Questions <a>
                         <span id="menudismiss"> X </span>
             </div>
         </div>
         <div class="quiz-wrapper">
             <form id="addQuestion" onsubmit="submitForm(event)">
-                <label class="formLabel">Question Number:</label><br>
                 <label class="formLabel">Question:</label><br>
                 <textarea maxlength="200" cols="50" rows="5" class="formArea"
-                    placeholder="Add your question here. Include a question mark (?) at theend." id="q" name="q"
-                    required></textarea><br>
+                    placeholder="Add your question here. Include a question mark (?) at theend." id="q" name="q" required></textarea><br>
                 <label class="formLabel">Answer A:</label>
                 <input type="text" maxlength="100" size="100" class="formInput" id="a" name="a" required><br>
                 <label class="formLabel">Answer B:</label>
@@ -42,12 +39,8 @@
                     <option value="c"> - C -</option>
                     <option value="d"> - D -</option>
                 </select><br><br>
-                <button id="submitQuestion">
-                    <p>Submit Question</p>
-                </button><br><br><br>
-                <button id="saveQuestionBank">
-                    <p>Save Question bank</p>
-                </button>
+                <button id="submitQuestion"><p>Submit Question</p></button><br><br><br>
+                <button id="saveQuestionBank"><p>Save Question bank</p></button>
             </form>
         </div>
         <div id="footer">
